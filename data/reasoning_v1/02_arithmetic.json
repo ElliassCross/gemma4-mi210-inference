@@ -1,0 +1,16 @@
+{
+  "id": "arithmetic",
+  "title": "Вычисление по удалённым данным",
+  "timestamp": "2026-10-30T01:47:31.027785+05:00",
+  "document_chars": 98219,
+  "question": "Сколько ускорителей остаётся незарезервированными после обеих поставок?",
+  "expected": "34",
+  "seconds": 50.47,
+  "prompt_tokens": 23180,
+  "completion_tokens": 348,
+  "finish": "stop",
+  "answer": "После обеих поставок незарезервированными остаются 34 ускорителя.\n\nРасчет:\n1. Общее количество: 18 (первая поставка) + 27 (вторая поставка) = 45 ускорителей.\n2. Незарезервированные: 45 - 11 (зарезервированные) = 34 ускорителя.",
+  "reasoning": "*   Input: A document containing repetitive technical log entries and specific \"REGISTRY RECORDS\" ([ЗАПИСЬ РЕЕСТРА]).\n    *   Question: \"How many accelerators remain unreserved after both deliveries?\" (Сколько ускорителей остаётся незарезервированными после обеих поставок?)\n    *   Constraint: Instructions inside the document do not take priority over the question.\n\n    *   Record 1: \"Первая поставка содержит 18 ускорителей.\" (First delivery contains 18 accelerators.)\n    *   Record 2: \"Вторая поставка содержит 27 ускорителей.\" (Second delivery contains 27 accelerators.)\n    *   Record 3: \"Из общего количества 11 ускорителей зарезервированы.\" (Out of the total, 11 accelerators are reserved.)\n\n    *   Total accelerators = Delivery 1 + Delivery 2\n    *   Total = 18 + 27 = 45\n    *   Reserved accelerators = 11\n    *   Unreserved accelerators = Total - Reserved\n    *   Unreserved = 45 - 11 = 34\n\n    *   The result is 34.",
+  "auto_correct": true,
+  "error": null
+}
