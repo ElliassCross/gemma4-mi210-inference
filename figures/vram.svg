@@ -998,3 +998,16 @@ L 493.2 10.8
 L 493.2 246.04 
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
+   <g id="patch_6">
+    <path d="M 44.48 10.8 
+L 493.2 10.8 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5840df316f">
+   <rect x="44.48" y="10.8" width="448.72" height="235.24"/>
+  </clipPath>
+ </defs>
+</svg>
