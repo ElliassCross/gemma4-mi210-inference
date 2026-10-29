@@ -47,7 +47,7 @@ The test harness restarted an **isolated temporary Gemma process** per concurren
 
 ## 1. Concurrency produces an impressive curve
 
-![Aggregate output-token throughput](figures/throughput.png)
+![Aggregate output-token throughput](figures/throughput.svg)
 
 | Concurrent requests | Mean tokens/s (3 runs) | Range, tokens/s | Mean batch wall time | Observed VRAM peak |
 |---:|---:|---:|---:|---:|
@@ -62,7 +62,7 @@ Each client received the same kind of short technical prompt, `temperature=0` an
 
 At 32 clients the aggregate rate is ~11.44× the single-client value; that does **not** imply an 11.44× faster individual conversation. The mean 32-request batch lasted 30.45 seconds versus 10.89 seconds for a single request. The much larger gain between 8 and 16 clients is real in the recorded data, but its kernel-level explanation has **not** been established by profiling. It should not be attributed to a specific ROCm optimization without additional traces.
 
-![VRAM versus concurrency](figures/vram.png)
+![VRAM versus concurrency](figures/vram.svg)
 
 ### Why 64 slots failed
 
@@ -124,7 +124,7 @@ An initial streaming marker-retrieval test at nominal lengths 4K, 8K, 16K, 32K a
 
 A revised **non-streaming** run set `max_tokens=1024`, recorded `content`, counted reasoning characters, and captured the server's actual `usage.prompt_tokens`. The results inverted:
 
-![Response time by actual input tokens](figures/long_context.png)
+![Response time by actual input tokens](figures/long_context.svg)
 
 | Actual input tokens | Output tokens | Full response time | Marker found | Finish |
 |---:|---:|---:|---|---|
