@@ -1,0 +1,45 @@
+{"timestamp": "2026-10-30T00:46:16+05:00", "stage": "load_1_slots", "status": "READY", "slots": 1, "context": 4096}
+{"timestamp": "2026-10-30T00:46:27+05:00", "stage": "parallel_1_r1", "status": "DONE", "slots": 1, "repeat": 1, "seconds": 10.95, "tokens": 256, "tok_s": 23.39, "errors": 0, "length": 1, "latency_p50": 10.95, "latency_p95": 10.95}
+{"timestamp": "2026-10-30T00:46:38+05:00", "stage": "parallel_1_r2", "status": "DONE", "slots": 1, "repeat": 2, "seconds": 10.86, "tokens": 256, "tok_s": 23.58, "errors": 0, "length": 1, "latency_p50": 10.86, "latency_p95": 10.86}
+{"timestamp": "2026-10-30T00:46:49+05:00", "stage": "parallel_1_r3", "status": "DONE", "slots": 1, "repeat": 3, "seconds": 10.85, "tokens": 256, "tok_s": 23.6, "errors": 0, "length": 1, "latency_p50": 10.85, "latency_p95": 10.85}
+{"timestamp": "2026-10-30T00:46:58+05:00", "stage": "load_2_slots", "status": "READY", "slots": 2, "context": 8192}
+{"timestamp": "2026-10-30T00:47:11+05:00", "stage": "parallel_2_r1", "status": "DONE", "slots": 2, "repeat": 1, "seconds": 12.42, "tokens": 512, "tok_s": 41.22, "errors": 0, "length": 2, "latency_p50": 12.42, "latency_p95": 12.42}
+{"timestamp": "2026-10-30T00:47:23+05:00", "stage": "parallel_2_r2", "status": "DONE", "slots": 2, "repeat": 2, "seconds": 12.41, "tokens": 512, "tok_s": 41.27, "errors": 0, "length": 2, "latency_p50": 12.41, "latency_p95": 12.41}
+{"timestamp": "2026-10-30T00:47:36+05:00", "stage": "parallel_2_r3", "status": "DONE", "slots": 2, "repeat": 3, "seconds": 12.41, "tokens": 512, "tok_s": 41.27, "errors": 0, "length": 2, "latency_p50": 12.4, "latency_p95": 12.4}
+{"timestamp": "2026-10-30T00:47:45+05:00", "stage": "load_4_slots", "status": "READY", "slots": 4, "context": 16384}
+{"timestamp": "2026-10-30T00:48:01+05:00", "stage": "parallel_4_r1", "status": "DONE", "slots": 4, "repeat": 1, "seconds": 15.41, "tokens": 1024, "tok_s": 66.46, "errors": 0, "length": 4, "latency_p50": 15.38, "latency_p95": 15.41}
+{"timestamp": "2026-10-30T00:48:16+05:00", "stage": "parallel_4_r2", "status": "DONE", "slots": 4, "repeat": 2, "seconds": 15.19, "tokens": 1024, "tok_s": 67.43, "errors": 0, "length": 4, "latency_p50": 15.19, "latency_p95": 15.19}
+{"timestamp": "2026-10-30T00:48:31+05:00", "stage": "parallel_4_r3", "status": "DONE", "slots": 4, "repeat": 3, "seconds": 15.08, "tokens": 1024, "tok_s": 67.9, "errors": 0, "length": 4, "latency_p50": 15.08, "latency_p95": 15.08}
+{"timestamp": "2026-10-30T00:48:41+05:00", "stage": "load_8_slots", "status": "READY", "slots": 8, "context": 32768}
+{"timestamp": "2026-10-30T00:49:04+05:00", "stage": "parallel_8_r1", "status": "DONE", "slots": 8, "repeat": 1, "seconds": 23.23, "tokens": 2048, "tok_s": 88.17, "errors": 0, "length": 8, "latency_p50": 23.22, "latency_p95": 23.23}
+{"timestamp": "2026-10-30T00:49:27+05:00", "stage": "parallel_8_r2", "status": "DONE", "slots": 8, "repeat": 2, "seconds": 22.72, "tokens": 2048, "tok_s": 90.13, "errors": 0, "length": 8, "latency_p50": 22.72, "latency_p95": 22.72}
+{"timestamp": "2026-10-30T00:49:49+05:00", "stage": "parallel_8_r3", "status": "DONE", "slots": 8, "repeat": 3, "seconds": 22.69, "tokens": 2048, "tok_s": 90.25, "errors": 0, "length": 8, "latency_p50": 22.69, "latency_p95": 22.69}
+{"timestamp": "2026-10-30T00:49:59+05:00", "stage": "load_16_slots", "status": "READY", "slots": 16, "context": 65536}
+{"timestamp": "2026-10-30T00:50:20+05:00", "stage": "parallel_16_r1", "status": "DONE", "slots": 16, "repeat": 1, "seconds": 21.15, "tokens": 4096, "tok_s": 193.67, "errors": 0, "length": 16, "latency_p50": 21.14, "latency_p95": 21.14}
+{"timestamp": "2026-10-30T00:50:41+05:00", "stage": "parallel_16_r2", "status": "DONE", "slots": 16, "repeat": 2, "seconds": 20.59, "tokens": 4096, "tok_s": 198.88, "errors": 0, "length": 16, "latency_p50": 20.59, "latency_p95": 20.59}
+{"timestamp": "2026-10-30T00:51:01+05:00", "stage": "parallel_16_r3", "status": "DONE", "slots": 16, "repeat": 3, "seconds": 20.38, "tokens": 4096, "tok_s": 200.99, "errors": 0, "length": 16, "latency_p50": 20.37, "latency_p95": 20.38}
+{"timestamp": "2026-10-30T00:53:31+05:00", "stage": "quality_16slots", "status": "DONE", "workers": 20, "seconds": 149.55, "tokens": 13397, "tok_s": 89.58, "errors": 0, "truncated": 7}
+{"timestamp": "2026-10-30T00:53:41+05:00", "stage": "load_32_slots", "status": "READY", "slots": 32, "context": 131072}
+{"timestamp": "2026-10-30T00:54:12+05:00", "stage": "parallel_32_r1", "status": "DONE", "slots": 32, "repeat": 1, "seconds": 31.14, "tokens": 8192, "tok_s": 263.05, "errors": 0, "length": 32, "latency_p50": 31.13, "latency_p95": 31.13}
+{"timestamp": "2026-10-30T00:54:43+05:00", "stage": "parallel_32_r2", "status": "DONE", "slots": 32, "repeat": 2, "seconds": 30.32, "tokens": 8192, "tok_s": 270.2, "errors": 0, "length": 32, "latency_p50": 30.31, "latency_p95": 30.31}
+{"timestamp": "2026-10-30T00:55:13+05:00", "stage": "parallel_32_r3", "status": "DONE", "slots": 32, "repeat": 3, "seconds": 29.88, "tokens": 8192, "tok_s": 274.14, "errors": 0, "length": 32, "latency_p50": 29.87, "latency_p95": 29.88}
+{"timestamp": "2026-10-30T00:58:17+05:00", "stage": "quality_32slots", "status": "DONE", "workers": 20, "seconds": 184.8, "tokens": 13355, "tok_s": 72.27, "errors": 0, "truncated": 6}
+{"timestamp": "2026-10-30T00:58:28+05:00", "stage": "load_64_slots", "status": "FAILED", "journal_hint": "journalctl -u gemma4-autobench-model-3156801-7.service -n 60 --no-pager"}
+{"timestamp": "2026-10-30T00:58:36+05:00", "stage": "load_1_slots", "status": "READY", "slots": 1, "context": 8192}
+{"timestamp": "2026-10-30T00:58:44+05:00", "stage": "context_4096", "status": "DONE", "target_tokens": 4096, "seconds": 8.21, "ttft": 4.19, "correct": false, "error": null}
+{"timestamp": "2026-10-30T00:58:54+05:00", "stage": "load_1_slots", "status": "READY", "slots": 1, "context": 10240}
+{"timestamp": "2026-10-30T00:59:06+05:00", "stage": "context_8192", "status": "DONE", "target_tokens": 8192, "seconds": 12.44, "ttft": 8.36, "correct": false, "error": null}
+{"timestamp": "2026-10-30T00:59:16+05:00", "stage": "load_1_slots", "status": "READY", "slots": 1, "context": 18432}
+{"timestamp": "2026-10-30T00:59:38+05:00", "stage": "context_16384", "status": "DONE", "target_tokens": 16384, "seconds": 22.05, "ttft": 17.872, "correct": false, "error": null}
+{"timestamp": "2026-10-30T00:59:48+05:00", "stage": "load_1_slots", "status": "READY", "slots": 1, "context": 34816}
+{"timestamp": "2026-10-30T01:00:34+05:00", "stage": "context_32768", "status": "DONE", "target_tokens": 32768, "seconds": 45.81, "ttft": 41.377, "correct": false, "error": null}
+{"timestamp": "2026-10-30T01:00:43+05:00", "stage": "load_1_slots", "status": "READY", "slots": 1, "context": 67584}
+{"timestamp": "2026-10-30T01:02:36+05:00", "stage": "context_65536", "status": "DONE", "target_tokens": 65536, "seconds": 112.76, "ttft": 107.861, "correct": false, "error": null}
+{"timestamp": "2026-10-30T01:02:46+05:00", "stage": "load_8_slots", "status": "READY", "slots": 8, "context": 32768}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "stability_15min", "status": "DONE", "seconds": 909.17, "requests": 640, "errors": 0, "tokens": 81920, "tok_s": 90.1}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "quant_compare", "status": "SKIPPED", "reason": "Q6_K / Q4_K_M weights not installed or configured"}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "competitor_compare", "status": "SKIPPED", "reason": "GLM stays running on GPU1; Qwen is intentionally stopped"}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "image", "status": "SKIPPED", "reason": "no test image supplied; image preprocessing benchmark needs verified media inputs"}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "speculative", "status": "SKIPPED", "reason": "no draft model installed or verified compatible"}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "disable_reasoning", "status": "SKIPPED", "reason": "requires a separately validated chat-template/parameter contract"}
+{"timestamp": "2026-10-30T01:17:55+05:00", "stage": "suite", "status": "COMPLETE", "output": "/home/odminus/gemma4-bench/auto_20261030_004607"}
