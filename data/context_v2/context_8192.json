@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-30T01:31:04+05:00",
+  "target_tokens_approx": 8192,
+  "actual_prompt_tokens": 6028,
+  "completion_tokens": 194,
+  "elapsed_seconds": 16.062,
+  "finish_reason": "stop",
+  "content": "helios-5831",
+  "reasoning_chars": 640,
+  "correct": true,
+  "error": null
+}
