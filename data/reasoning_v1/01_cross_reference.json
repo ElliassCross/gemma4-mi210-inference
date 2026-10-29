@@ -1,0 +1,16 @@
+{
+  "id": "cross_reference",
+  "title": "Связь фактов в начале и конце документа",
+  "timestamp": "2026-10-30T01:46:40.875268+05:00",
+  "document_chars": 98169,
+  "question": "Какой резервный узел назначен объекту ORION-17 через его подразделение?",
+  "expected": "NODE-73",
+  "seconds": 50.15,
+  "prompt_tokens": 23162,
+  "completion_tokens": 334,
+  "finish": "stop",
+  "answer": "Резервным узлом для объекта ORION-17 (через подразделение DELTA-9) назначен NODE-73.",
+  "reasoning": "*   Input: A document containing repetitive technical log entries and two specific registry entries (`[ЗАПИСЬ РЕЕСТРА]`).\n    *   Question: \"Какой резервный узел назначен объекту ORION-17 через его подразделение?\" (Which backup node is assigned to object ORION-17 through its division?)\n    *   Constraint: Instructions inside the document do not take priority over the question.\n\n    *   The document is mostly filler text: \"Раздел технического журнала: оборудование работает в штатном режиме... Этот абзац не содержит сведений о контрольном задании.\"\n    *   Registry Entry 1: \"Объект ORION-17 закреплён за подразделением DELTA-9.\" (Object ORION-17 is assigned to division DELTA-9.)\n    *   Registry Entry 2: \"Для подразделения DELTA-9 резервным узлом назначен NODE-73.\" (For division DELTA-9, NODE-73 is appointed as the backup node.)\n\n    *   Object ORION-17 $\\rightarrow$ Division DELTA-9.\n    *   Division DELTA-9 $\\rightarrow$ Backup Node NODE-73.\n    *   Therefore, Object ORION-17 is linked to Backup Node NODE-73 via Division DELTA-9.\n\n    *   The backup node is NODE-73.",
+  "auto_correct": true,
+  "error": null
+}
