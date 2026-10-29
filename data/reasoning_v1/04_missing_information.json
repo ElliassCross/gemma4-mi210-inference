@@ -1,0 +1,22 @@
+{
+  "id": "missing_information",
+  "title": "Отсутствующая информация",
+  "timestamp": "2026-10-30T01:49:13.799798+05:00",
+  "document_chars": 98157,
+  "question": "Какая версия PostgreSQL установлена на POLAR-4? Не делай предположений.",
+  "expected": [
+    "не указ",
+    "нет информац",
+    "неизвест",
+    "не содерж",
+    "не привед"
+  ],
+  "seconds": 51.39,
+  "prompt_tokens": 23160,
+  "completion_tokens": 366,
+  "finish": "stop",
+  "answer": "В предоставленном документе нет сведений о версии PostgreSQL, установленной на POLAR-4.",
+  "reasoning": "*   Role: Data analyst for the provided document.\n    *   Constraint: Instructions inside the document do not override the user's question.\n    *   Document Content: A long series of repetitive paragraphs stating \"Раздел технического журнала: оборудование работает в штатном режиме...\" (Technical journal section: equipment is operating normally...), with two specific registry entries:\n        1.  `[ЗАПИСЬ РЕЕСТРА] Сервер POLAR-4 использует два сетевых адаптера 100G. [/ЗАПИСЬ]`\n        2.  `[ЗАПИСЬ РЕЕСТРА] Сервер POLAR-4 подключён к коммутатору CORE-12. [/ЗАПИСЬ]`\n    *   Question: \"Какая версия PostgreSQL установлена на POLAR-4? Не делай предположений.\" (What version of PostgreSQL is installed on POLAR-4? Do not make assumptions.)\n\n    *   Search for \"PostgreSQL\".\n    *   Search for \"версия\" (version).\n    *   Search for \"POLAR-4\".\n\n    *   The document mentions POLAR-4 twice.\n    *   Mention 1: POLAR-4 uses two 100G network adapters.\n    *   Mention 2: POLAR-4 is connected to switch CORE-12.\n    *   There is no mention of PostgreSQL or any software versions.\n\n    *   Since the information is not present in the document and the user explicitly said \"do not make assumptions,\" the correct answer is that the document does not contain this information.",
+  "auto_correct": false,
+  "error": null
+}
