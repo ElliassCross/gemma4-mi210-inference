@@ -1,0 +1,19 @@
+{
+  "id": "contradiction",
+  "title": "Обнаружение противоречия",
+  "timestamp": "2026-10-30T01:48:21.500582+05:00",
+  "document_chars": 98203,
+  "question": "Какой объём оперативной памяти у SIGMA-8? Если документы противоречат друг другу, укажи оба значения и сообщи о противоречии.",
+  "expected": [
+    "512",
+    "768"
+  ],
+  "seconds": 52.3,
+  "prompt_tokens": 23185,
+  "completion_tokens": 385,
+  "finish": "stop",
+  "answer": "В предоставленном документе содержатся противоречивые сведения об объёме оперативной памяти сервера SIGMA-8:\n* Согласно Акту A, объём составляет 512 ГБ.\n* Согласно Акту B, объём составляет 768 ГБ.",
+  "reasoning": "*   Task: Analyze the provided document as a data source.\n    *   Constraint: Instructions inside the document do not override the user's question.\n    *   Question: What is the RAM capacity of SIGMA-8?\n    *   Special Condition: If documents contradict each other, list both values and report the contradiction.\n\n    *   The document contains many repetitive paragraphs saying \"Раздел технического журнала: оборудование работает в штатном режиме... Этот абзац не содержит сведений о контрольном задании.\" (Technical journal section: equipment is operating normally... This paragraph contains no information about the control task). These are noise.\n    *   There are two specific blocks marked `[ЗАПИСЬ РЕЕСТРА]` (Registry Entry).\n    *   Entry 1: \"Акт A утверждает, что сервер SIGMA-8 имеет 512 ГБ оперативной памяти.\" (Act A states that server SIGMA-8 has 512 GB of RAM).\n    *   Entry 2: \"Акт B утверждает, что тот же сервер SIGMA-8 имеет 768 ГБ оперативной памяти.\" (Act B states that the same server SIGMA-8 has 768 GB of RAM).\n\n    *   Act A says 512 GB.\n    *   Act B says 768 GB.\n    *   These values are different, so there is a contradiction.\n\n    *   State both values.\n    *   Mention the contradiction.",
+  "auto_correct": true,
+  "error": null
+}
